@@ -41,11 +41,11 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="text/javascript" src="/particles.js"></script>
       </Head>
-      <div style={{position: 'fixed', top: 0, right: 0, left: 0, bottom: 0}} id="particles-js"></div>
 
-      <div style={{margin: '64px auto', maxWidth: '932px'}}>
+      <div style={{margin: '44px auto', maxWidth: '932px', padding: '0 8px'}}>
         <div style={{backgroundColor: '#00467F', position: 'relative', padding: '8px 0'}}>
           <div style={{backgroundColor: '#EF3D42', position: 'absolute', top: '0px', bottom: '0px', width: '4px'}}></div>
           <div style={{backgroundColor: '#FFD24E', position: 'absolute', top: '0px', bottom: '0px', left: '4px', width: '4px'}}></div>
@@ -55,6 +55,7 @@ export default function Home() {
         </div>
         <h3>Bull City Blockchain is a group of curious technologists adding value to our world with bleeding edge technology.</h3>
       </div>
+      <div style={{position: 'fixed', top: 0, right: 0, left: 0, bottom: 0}} id="particles-js"></div>
     </>
   );
 }
